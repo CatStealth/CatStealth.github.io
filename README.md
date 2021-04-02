@@ -52,3 +52,71 @@ la misma que logro conquistarte
 </ul>
 <a href="#">¿Cuanto os amais?</a>
 </body>
+
+*{
+	margin:0px;
+	padding:0px;
+}
+header nav{
+	background:#528FD5;
+	overflow:hidden;
+}
+header nav ul {
+	list-style:none;
+}
+header nav	ul li{
+	float:left;
+}
+header nav ul li a {
+	padding:10px 20px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+}
+header, .main, footer{
+	text-anchor:20px;
+	text-align:center;
+	color:red;
+	max-width:1000%;
+	margin:20px auto;
+	width:90%;
+}
+body {
+	background:#C77BE0;
+}
+.main .articles{
+	text-align:left;
+	margin-bottom:2%; 
+	margin-right:1.5%;
+	color:green;
+	width:68.5%;
+	float:left;
+}
+.main .articles article{
+	background:#fff;
+	padding:20px;
+	margin-bottom:20px;
+}
+aside{
+	text-align:justify;
+	width:30%;
+	background:#ff8000;
+	float:left;
+	padding:20px;
+	box-sizing:border-box;
+}
+footer{
+	background:#000;
+	color:#fff;
+	clear:both;
+	padding:5px 0px;
+	text-align:center;
+}
+
+}
+div .title { 
+	color:red;
+	margin:20px auto;
+	padding:10px 20px;
+
+}
